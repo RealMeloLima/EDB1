@@ -1,5 +1,4 @@
 #include "../include_c/busca_binaria.h"
-#include <stdbool.h>
 
 int bad_version_for_test = 4;
 
