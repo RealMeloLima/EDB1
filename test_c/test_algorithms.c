@@ -11,16 +11,14 @@
     } while(0)
 
 int main() {
-    int arr1[] = {4, 2, 1, 4, 2, 1}; [cite_start]
+    int arr1[] = {4, 2, 1, 4, 2, 1}; 
     int n1 = 6;
-
-    int n_versoes = 5; [cite_start]
-
+    int n_versoes = 5; 
     const char* str_recursiva = "banana";
 
-    RUN_TEST("Especialidades distintas", conta_especialidades_distintas(arr1, n1), 3); [cite_start]
-    RUN_TEST("Busca binaria", busca_binaria(n_versoes), 4); [cite_start]
-    RUN_TEST("Recursao", recursao(str_recursiva, 'a'), 3); [cite_start]
+    RUN_TEST("Especialidades distintas", conta_especialidades_distintas(arr1, n1), 3);
+    RUN_TEST("Busca binaria", busca_binaria(n_versoes), 4);
+    RUN_TEST("Recursao", recursao(str_recursiva, 'a'), 3);
 
     return 0;
 }
